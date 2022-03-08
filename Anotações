@@ -1,0 +1,18 @@
+NODE JS : Para desenvolver API's, desenvolver backend de jogos e apps de trocas de menasgens , aplicações em real time.
+Oque usamos com o node: Express (framework, recursos de rotas , templates.) , EJS , PUG (que vamos ver) mongoose (urm voltado para banco de dados nao relacionais)
+
+NPM init  (para começar o projeto, primeira pergunta o nome do projeto , 
+Main no json (como se fosse o index, entao ao acessar um diretorio via  http  se houver um arquivo index na raiz ele sera automaticamente aberto (mudamos pra app.js exemplo).
+
+http: const http = require ('http);
+
+**** Gerenciando pacotes **** 
+
+npm i console-log-hello-world para instalar um 
+caso alguem clone do github o projeto, apenas dar um npm install que instala todas as dependencias já baixadas
+Para utilizar somente em ambiente de desenvolvimento e nao de produção : npm install console.log-hello-world --save-dev (vai colocar em uma ''pasta'' de devvDependences)
+const hello = require('console-log-hello-world'); / colocar no app.js para requirir o pacote
+
+
+
+

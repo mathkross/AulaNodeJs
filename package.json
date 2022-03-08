@@ -1,0 +1,27 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "Primeiros estudos de node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathkross/AulaNodeJs.git"
+  },
+  "keywords": [
+    "Aulas",
+    "NodeJs"
+  ],
+  "author": "Matheus Kross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathkross/AulaNodeJs/issues"
+  },
+  "homepage": "https://github.com/mathkross/AulaNodeJs#readme",
+  "dependencies": {
+    "console-log-hello-world": "^1.0.3",
+    "express": "^4.17.3"
+  }
+}

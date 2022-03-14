@@ -12,6 +12,16 @@
  const express = require('express');
  const app = express();
  const port = 3000;
+ const home = require('./routes/home');
+ const client = require('./routes/client');
+ const bodyParser = require('body-parser')
+
+
+ app.use('/', home)
+ app.use('/client', client);
+ app.use(bodyParser.json());
+ app.use(bodyParser.urlencoded({extended: false}))
+
 
 app.get('/', (req, res) => {
     res.send('Hello World');
@@ -27,3 +37,7 @@ app.get('/character', (req, res) =>{
 })
 
  app.listen(port, () => console.log(`App listening http://localhost:${port}`));
+
+
+
+ // ** npm i nodemon --save-dev // ele automatiza a recarga , fica escutando a porta 3000, toda alteração feita ele da um refresh no arquivo.
